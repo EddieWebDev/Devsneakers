@@ -134,16 +134,6 @@ header {
     margin: 1vh;
 }
 
-.contact-form-container input {
-    width: 30vw;
-    background-color: wheat;
-    margin-bottom: 2vh;
-}
-
-.message-input {
-    height: 10vh;
-}
-
 /* FOOTER */
 
 .footer-copyright-container {
@@ -152,4 +142,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }

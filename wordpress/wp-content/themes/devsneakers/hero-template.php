@@ -1,4 +1,4 @@
-<?php if(!is_page("Product")) : ?> <!-- HARDCODED PAGE PRODUCT -->
+<?php if(!is_page("Product") && !is_page("Contact Us")) : ?> <!-- HARDCODED PAGE PRODUCT -->
 
     <?php get_template_part("thumbnail-template"); ?>
 
