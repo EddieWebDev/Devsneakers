@@ -1,0 +1,145 @@
+/*
+Theme Name: Devsneakers theme
+Author: Eddie Andersson
+Description: Devsneakers
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, Neue;
+    text-decoration: none;
+}
+
+#wrapper{
+    background-color: whitesmoke;
+}
+
+/* HEADER */
+
+ul {
+    list-style-type: none;
+}
+
+header a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.header-thumbnail {
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.product-thumbnail {
+    object-fit: cover;
+    width: 80%;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.header-nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+}
+
+.hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header-title{
+    width: 25vw;
+}
+
+.menu-header-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+#menu-header-menu {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* MAIN */
+
+#main {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.news-title {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+.news {
+    width: 80vw;
+}
+
+.news ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.news ul li div {
+    margin: 1vh;
+}
+
+/* FOOTER */
+
+.footer-copyright-container {
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
