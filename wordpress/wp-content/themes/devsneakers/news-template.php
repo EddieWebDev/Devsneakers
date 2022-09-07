@@ -1,4 +1,4 @@
-<?php if(!is_page("Product")) : ?> <!-- HARDCODED PAGE PRODUCT -->
+<?php if(!is_page("Product") && !is_page("Contact Us")): ?> <!-- HARDCODED-->
 
 <h2 class="news-title">News</h2>
 <div class="news">
@@ -17,4 +17,4 @@
     </ul>
 </div>
 
-<?php endif; ?>
+<?php endif ; ?>
