@@ -12,10 +12,7 @@
   <div id="wrapper" class="hfeed">
     <header id="header" role="banner">
 
-
       <?php get_template_part("header-nav-template"); ?>
-
-      <?php get_template_part("hero-template"); ?>
 
     </header>
     <div id="container">

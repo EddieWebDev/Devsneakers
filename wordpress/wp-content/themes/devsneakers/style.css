@@ -4,6 +4,9 @@ Author: Eddie Andersson
 Description: Devsneakers
 */
 
+
+/* GENERAL */
+
 *{
     margin: 0;
     padding: 0;
@@ -16,13 +19,13 @@ Description: Devsneakers
     background-color: whitesmoke;
 }
 
-/* HEADER */
-
 ul {
     list-style-type: none;
 }
 
-header a:visited {
+/* LINKS */
+
+a:visited {
     color: black;
 }
 
@@ -30,24 +33,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.current-menu-item a {
+    color: blue;
+}
+
+/* HEADER */
+
 header {
     position: relative;
     text-align: center;
     display: flex;
-}
-
-.header-thumbnail {
-    object-fit: cover;
-    width: 100%;
-    height: 50vh;
-}
-
-.product-thumbnail {
-    object-fit: cover;
-    width: 80%;
-    height: 50vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
 }
 
 .header-nav{
@@ -58,14 +53,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: whitesmoke;
-}
-
-.hero-title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
 }
 
 .header-title{
@@ -82,25 +69,61 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-/* MAIN */
 
-#main {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+/* CONTENT */
 
+#container {
+    margin-top: 2vh;
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.content {
-    width: 40vw;
+/* HERO */
+
+.hero-container {
+    position: relative;
+}
+
+.hero-image-container {
+    height: 40vh;
+}
+
+.hero-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* CONTENT TEXT */
+
+.content-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.content-text-title {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.content-text {
+    width: 50%;
+    text-align: center;
 }
 
 .content p {
@@ -109,8 +132,33 @@ header {
     margin-bottom: 3vh;
 }
 
+/* PAGE TITLE */
+
+.page-title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+/* BUTTON */
+
+.wp-block-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* NEWS */
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
 .news-title {
-    margin-top: 20vh;
     margin-bottom: 5vh;
 }
 
@@ -132,6 +180,30 @@ header {
 
 .news ul li div {
     margin: 1vh;
+}
+
+/* VIDEO */
+
+.is-type-video {
+    display: flex;
+    justify-content: center;
+}
+
+.wp-block-embed__wrapper {
+    text-align: center;
+    width: 80%;
+    height: 50vh;
+}
+
+.wp-block-embed__wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTACT */
+
+.wpforms-form {
+    width: 40vw;
 }
 
 /* FOOTER */
