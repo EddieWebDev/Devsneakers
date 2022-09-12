@@ -97,5 +97,14 @@ function my_acf_init_block_types() {
           'keywords'          => array("page-title"),
       ));
 
+        acf_register_block_type(array(
+          'name'              => 'product',
+          'title'             => __('product'),
+          'description'       => __('A custom product block.'),
+          'render_template'   => 'template-parts/blocks/product-block.php',
+          'category'          => 'formatting',
+          'icon'              => 'admin-comments',
+          'keywords'          => array("product"),
+      ));
     }
 }

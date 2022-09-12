@@ -1,6 +1,6 @@
 <nav class="header-nav">
     <div class="header-title">
-        <h1>
+        <h1 class="h1-header">
         <?php echo get_bloginfo( 'name' ); ?>
         </h1>
     </div>

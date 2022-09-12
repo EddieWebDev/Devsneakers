@@ -1,4 +1,3 @@
-PAGE.PHP
 
 <?php get_header(); ?>
 
